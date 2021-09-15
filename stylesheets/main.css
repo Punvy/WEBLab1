@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap");
+body {
+  background-color: #5A8D3E;
+  color: #05386B;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type=text] {
+  border: 3px solid grey;
+}
+
+input[type=text]:focus {
+  outline: none;
+  border: 3px solid grey;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a {
+  color: #05386B;
+}
+
+.SadPEPE {
+  width: 256px;
+  height: 256px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 50%;
+  justify-content: center;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main td {
+  padding: 0px;
+}
+.main td img {
+  display: block;
+  margin: 0 auto;
+}
+
+.variant {
+  transition: all 0.1s;
+}
+
+.variant:hover {
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.1s;
+}
+
+.header {
+  background: #90C673;
+  font-family: cursive;
+  transition: all 0.5s;
+  border: solid 2px #0F4635;
+}
+
+.area {
+  border: solid 3px #0F4635;
+}
+
+.value {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.x-button {
+  margin: 0px 0.5%;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border: black 1px solid;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.x-button:hover {
+  transition: all 0.2s;
+  background: #5A8D3E;
+}
+
+.valueCell {
+  margin: auto;
+  border: solid 3px #0F4635;
+  border-top: none;
+}
+
+#btnSubmit {
+  background: white;
+  width: 120px;
+  height: 60px;
+  border: black 1px solid;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+#btnSubmit:hover {
+  transition: all 0.2s;
+  background: #5A8D3E;
+}
+
+#btnSubmit:active {
+  background: #0F4635;
+}
+
+.nameInput {
+  text-align: right;
+  font-size: 24px;
+}
+
+input {
+  width: 70%;
+}
+
+.select {
+  background-color: #5A8D3E;
+}
+
+table.resTable {
+  border-spacing: 0px;
+}
+table.resTable tr {
+  border: 1px solid black;
+}
+table.resTable tr td {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>ЛаБа 1 WEB</title>
+	<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+	<link rel="stylesheet" href="stylesheets/main.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body>
+	<table class = "main">
+		<tr>
+			<td class="header" colspan="2">
+				<h1>Это первая лаба по WEB</h1>
+			</td>
+		</tr>
+		<tr>
+				<td class="variant">
+					<p><a href="https://docs.google.com/spreadsheets/d/148tsdbIgCsHCHWiAtN3T1RA5vrvwnLc4LWTqHinwGYM/edit#gid=1735620774" target="_blank">Вариант №15016</a></p>
+				</td>
+				<td class="I">
+					<img src="img/SADPEPE.png" alt="" class="SadPEPE">
+					<p class="surname">Пунток</p>
+					<p>Виталий Леонидович</p>
+					<p class="group">Группа: P3215</p>
+				</td>
+		</tr>
+		</tr>
+		<tr>
+			<td class="area" colspan="2">
+				<img src="img/area.png" alt="">
+			</td>
+		</tr>
+		<tr>
+			<td class="valueCell" colspan="2">
+				<form action="check.php" method="POST" id="form" class="fancy-box">
+					<table class="value">
+						<tr>
+							<td class="nameInput" ><p id="x"> X: </p> </td>
+							<td  class="inputCell">
+								<label><input class="x-button" type="button" value="-5" /></label>
+								<label><input class="x-button" type="button" value="-4" /> </label>
+								<label><input class="x-button" type="button" value="-3" /> </label>
+								<label><input class="x-button" type="button" value="-2" /></label>
+								<label><input class="x-button" type="button" value="-1" /></label>
+								<label><input class="x-button" type="button" value="0" /></label>
+								<label><input class="x-button" type="button" value="1" /></label>
+								<label><input class="x-button" type="button" value="2" /></label>
+								<label><input class="x-button" type="button" value="3" /></label>
+								 <input type="hidden" name="x" value="SOME Value" />
+						</td>
+					</tr>
+					<tr>
+							<td class="nameInput"><label for="y-input">Y: </label></td>
+							<td class="inputCell"><input type="text" name="y" id="y-input" placeholder="от -5 до 5" /></td>
+					</tr>
+					<tr>
+							<td class="nameInput"><label for="r-input" >R: </label></td>
+							<td class="inputCell"><input type="text" name="r" id="r-input" placeholder="от 1 до 4" /></td>
+					</tr>
+					<tr>
+							<td colspan="2"><input type="button" id="btnSubmit" value="Сдать"></td>
+					</tr>
+				</table>
+			</form>
+		</tr>
+		<tr>
+			<td colspan="2" class="resCell">
+				<table class="value resTable">
+					<tr>
+						<td>X</td>
+						<td>Y</td>
+						<td>R</td>
+						<td>Время</td>
+						<td>Время выпонения</td>
+						<td>Результат</td>
+					</tr>
+				</table>
+		</td>
+		</tr>
+	</table>
+</body>
+</html>
